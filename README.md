@@ -8,9 +8,13 @@ Steps for use:
 
 2. Use data augmentation in your code:
 
-```import data_utils as daug
+```python
+import data_utils as daug
 folders=[folder1, folder2] #list of folder paths where training images are saved, ex. ['./pos' , './neg']
-du.augment_and_save(folders)```
+daug.augment_and_save(folders)
+```
 
 If you would like to remove augmented images and keep originals, use:
-```du.remove_augmented_data(folders)```
+```python
+du.remove_augmented_data(folders)
+```
