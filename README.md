@@ -1,5 +1,5 @@
-# yo-daug
-A (very) light weight data augmentation tool for training CNNs and Viola Jones detectors (Haar Cascades). This tool inflates your data by up to six times. Use with care.
+# hey-daug
+A light weight data augmentation tool for training CNNs and Viola Jones detectors (Haar Cascades). This tool inflates your data by up to six times. Use with care.
 
 
 Steps for use: 
